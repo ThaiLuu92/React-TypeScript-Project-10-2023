@@ -1,0 +1,21 @@
+.credit-card-modal-content {
+  width: 300px;
+  padding: 16px;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+
+  form {
+    display: flex;
+    flex-direction: column;
+
+    .MuiTextField-root {
+      margin-bottom: 16px;
+    }
+
+    .MuiButton-root {
+      align-self: flex-end;
+    }
+  }
+}
